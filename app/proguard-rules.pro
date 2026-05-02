@@ -1,0 +1,3 @@
+-keep class com.wavetune.data.model.** { *; }
+-keepclassmembers class * extends androidx.room.RoomDatabase { *; }
+-keep class androidx.media3.** { *; }

@@ -1,0 +1,30 @@
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle/
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore (nunca subir al repo)
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle wrapper JAR (se descarga automáticamente)
+gradle/wrapper/gradle-wrapper.jar
