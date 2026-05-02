@@ -1,3 +1,5 @@
+- name: Generar Gradle Wrapper
+  run: gradle wrapper --gradle-version 8.9
 name: Build WaveTune
 
 on:
